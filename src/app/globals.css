@@ -562,3 +562,17 @@ body{font-size:16px;line-height:1.7}
 /* MICEGO method heading: add clear breathing room between the two headline lines */
 .method-heading h2{line-height:1.16}
 @media(max-width:700px){.method-heading h2{line-height:1.13}}
+
+/* Hero headline spacing: preserve the editorial style while separating words clearly */
+.hero h1{
+  letter-spacing:-.055em;
+  word-spacing:.065em;
+}
+.hero h1 em{
+  letter-spacing:-.055em;
+  word-spacing:.08em;
+}
+@media(max-width:700px){
+  .hero h1{letter-spacing:-.05em;word-spacing:.045em}
+  .hero h1 em{letter-spacing:-.05em;word-spacing:.06em}
+}
