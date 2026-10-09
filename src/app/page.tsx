@@ -35,7 +35,7 @@ export default function HomePage() {
       <div className="topline"><span>KOLINA GROUP PRESENTS</span><span>DESIGNED FOR BUSINESS. BUILT AROUND PEOPLE.</span><span>MG / 001</span></div>
       <header className="header">
         <div className="container nav">
-          <a className="logo" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="" aria-hidden="true" width="258" height="86" /><span className="logo-tm" aria-hidden="true">™</span></span></a>
+          <a className="logo" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a>
           <nav aria-label="Main navigation">
             <a href="#experiences">Experiences</a>
             <a href="#method">Our method</a>
@@ -178,7 +178,7 @@ export default function HomePage() {
 
       <footer className="footer">
         <div className="container footer-top">
-          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="" aria-hidden="true" width="258" height="86" /><span className="logo-tm" aria-hidden="true">™</span></span></a><p>Corporate Experiences, Simplified.</p><div className="brand-attribution"><span className="brand-parent">A Vertex Trips Brand</span><span className="brand-group">Part of Kolina Group</span></div></div>
+          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a><p>Corporate Experiences, Simplified.</p><div className="brand-attribution"><span className="brand-parent">A Vertex Trips Brand</span><span className="brand-group">Part of Kolina Group</span></div></div>
           <div className="footer-links"><a href="#experiences">Experiences</a><a href="#method">Our method</a><a href="#difference">The difference</a><a href="#enquiry">Contact</a></div>
           <div className="footer-contact"><span>MAKE SOMETHING MEANINGFUL.</span><a href="mailto:info@micego.in">info@micego.in</a><a href="https://micego.in">micego.in <ArrowUpRight size={13} /></a></div>
         </div>
