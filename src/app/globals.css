@@ -506,3 +506,14 @@ body{font-size:16px;line-height:1.7}
 .signal-inner{font-size:11px;letter-spacing:.15em}
 @media(max-width:1050px){.signal-inner{font-size:10px}}
 @media(max-width:700px){.signal-inner{font-size:9px;letter-spacing:.1em}}
+
+/* Approved footer brand lockup: MiceGo tagline, Vertex Trips brand, Kolina Group parent */
+.footer-brand .brand-attribution{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:22px;padding-top:20px;border-top:1px solid #ffffff26;font-size:12px;line-height:1.5;letter-spacing:0}
+.footer-brand .brand-parent{color:#d9c092;font-size:13px;font-weight:500}
+.footer-brand .brand-group{color:#c4c9dc;font-size:12px}
+.footer-bottom{font-size:9px}
+@media(max-width:700px){
+ .footer-brand .brand-attribution{margin-top:18px;padding-top:16px;gap:7px}
+ .footer-brand .brand-parent{font-size:12px}
+ .footer-brand .brand-group{font-size:11px}
+}
