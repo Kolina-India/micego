@@ -464,3 +464,7 @@ body{font-size:16px;line-height:1.7}
 .logo img{display:block;width:clamp(150px,12vw,178px);height:auto;max-height:64px;object-fit:contain;object-position:left center}
 .logo-light img{filter:none}
 @media(max-width:700px){.logo img{width:148px;max-height:52px}}
+
+/* Compact revised MiceGo wordmark — close spacing, no legacy tagline */
+.logo img{width:clamp(150px,12vw,172px);height:auto;max-height:40px;object-fit:contain;object-position:left center}
+@media(max-width:700px){.logo img{width:145px;max-height:36px}}
