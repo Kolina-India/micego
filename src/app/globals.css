@@ -453,3 +453,8 @@ body{font-size:16px;line-height:1.7}
  .footer-brand p,.footer-links,.footer-contact{font-size:11px}
  .footer-contact>span,.footer-bottom{font-size:8px}
 }
+
+/* Header logo asset: wordmark only, no legacy supporting tagline */
+.logo{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0;letter-spacing:normal}
+.logo img{display:block;width:clamp(145px,12vw,172px);height:auto;max-height:42px;object-fit:contain;object-position:left center}
+@media(max-width:700px){.logo img{width:145px;max-height:36px}}
