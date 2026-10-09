@@ -35,7 +35,7 @@ export default function HomePage() {
       <div className="topline"><span>A VERTEX TRIPS BRAND</span><span>WHERE BUSINESS MEETS EXPERIENCE.</span><span>MG / 001</span></div>
       <header className="header">
         <div className="container nav">
-          <a className="logo" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a>
+          <a className="logo" href="#top" aria-label="MiceGo home"><img src="/micego-logo.svg" alt="MICEGO" width="300" height="82" /></a>
           <nav aria-label="Main navigation">
             <a href="#experiences">Experiences</a>
             <a href="#method">Our method</a>
@@ -204,7 +204,7 @@ export default function HomePage() {
 
       <footer className="footer">
         <div className="container footer-top">
-          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a><p>Corporate Experiences, Simplified.</p><div className="brand-attribution"><span className="brand-parent">A Vertex Trips Brand</span><span className="brand-group">Part of Kolina Group</span></div></div>
+          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><img src="/micego-logo.svg" alt="MICEGO" width="300" height="82" /></a><p>Corporate Experiences, Simplified.</p><div className="brand-attribution"><span className="brand-parent">A Vertex Trips Brand</span><span className="brand-group">Part of Kolina Group</span></div></div>
           <div className="footer-links"><a href="#experiences">Experiences</a><a href="#method">Our method</a><a href="#difference">The difference</a><a href="#enquiry">Contact</a></div>
           <div className="footer-contact"><span>MAKE SOMETHING MEANINGFUL.</span><a href="mailto:info@micego.in">info@micego.in</a><a href="https://micego.in">micego.in <ArrowUpRight size={13} /></a></div>
         </div>
