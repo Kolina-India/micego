@@ -290,3 +290,65 @@ p{ text-wrap:pretty }
  .hero h1{font-size:55px}
  .experience-image{height:285px}
 }
+
+/* Typography scale refinement — improve legibility without losing the editorial character */
+body{font-size:15px}
+.topline{font-size:9px}
+.nav nav{font-size:13px}
+.btn{font-size:12px}
+.eyebrow{font-size:10px}
+.hero h1{font-size:clamp(74px,8.4vw,124px)}
+.hero-lede{font-size:15px;line-height:1.9}
+.underlink{font-size:12px}
+.signal-inner{font-size:9px}
+.manifesto-content h2{font-size:clamp(46px,5.35vw,76px)}
+.manifesto-bottom p{font-size:14px}
+.section-heading h2,.method-heading h2,.difference-copy h2{font-size:clamp(46px,5.4vw,76px)}
+.section-heading>p{font-size:14px}
+.experience-copy h3{font-size:clamp(23px,2.1vw,28px)}
+.experience-copy p{font-size:11px}
+.method-heading>p:last-child{font-size:14px}
+.method-step h3{font-size:28px}
+.method-step p{font-size:11px}
+.difference-lede{font-size:14px}
+.difference-list b{font-size:13px}
+.difference-list small{font-size:11px}
+.principles-grid b{font-size:12px}
+.principles-grid span{font-size:11px}
+.enquiry-copy h2{font-size:clamp(54px,6.3vw,84px)}
+.enquiry-copy>p:not(.eyebrow){font-size:14px}
+.enquiry-form label{font-size:9px}
+.enquiry-form input,.enquiry-form select,.enquiry-form textarea{font-size:12px}
+.form-preview-note{font-size:10px}
+.footer-brand p,.footer-links,.footer-contact{font-size:12px}
+@media(max-width:1050px){
+ .hero h1{font-size:clamp(70px,9vw,104px)}
+ .section-heading h2,.method-heading h2,.difference-copy h2{font-size:clamp(44px,5.7vw,66px)}
+ .method-step h3{font-size:26px}
+}
+@media(max-width:700px){
+ .topline{font-size:8px}
+ .nav nav{font-size:12px}
+ .btn{font-size:11px}
+ .hero h1{font-size:clamp(62px,13.4vw,88px)}
+ .hero-lede{font-size:14px}
+ .eyebrow{font-size:9px}
+ .signal-inner{font-size:8px}
+ .manifesto-content h2{font-size:clamp(40px,9.5vw,56px)}
+ .manifesto-bottom p{font-size:13px}
+ .section-heading h2,.method-heading h2,.difference-copy h2{font-size:clamp(40px,9.5vw,58px)}
+ .section-heading>p,.method-heading>p:last-child,.difference-lede{font-size:13px}
+ .experience-copy h3{font-size:clamp(20px,4.3vw,25px)}
+ .experience-copy p{font-size:11px}
+ .method-step h3{font-size:25px}
+ .method-step p{font-size:11px}
+ .principles-grid b{font-size:11px}
+ .principles-grid span{font-size:10px}
+ .enquiry-copy h2{font-size:clamp(50px,12.5vw,72px)}
+ .enquiry-copy>p:not(.eyebrow){font-size:13px}
+ .footer-brand p,.footer-links,.footer-contact{font-size:11px}
+}
+@media(max-width:390px){
+ .hero h1{font-size:58px}
+ .experience-copy h3{font-size:21px}
+}
