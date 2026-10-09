@@ -35,7 +35,7 @@ export default function HomePage() {
       <div className="topline"><span>KOLINA GROUP PRESENTS</span><span>DESIGNED FOR BUSINESS. BUILT AROUND PEOPLE.</span><span>MG / 001</span></div>
       <header className="header">
         <div className="container nav">
-          <a className="logo" href="#top" aria-label="MiceGo home">MICE<span>·</span>GO<sup>™</sup></a>
+          <a className="logo" href="#top" aria-label="MiceGo home"><img src="/micego-wordmark.svg" alt="MiceGo" width="172" height="37" /></a>
           <nav aria-label="Main navigation">
             <a href="#experiences">Experiences</a>
             <a href="#method">Our method</a>
