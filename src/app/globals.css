@@ -468,3 +468,13 @@ body{font-size:16px;line-height:1.7}
 /* Compact revised MiceGo wordmark — close spacing, no legacy tagline */
 .logo img{width:clamp(150px,12vw,172px);height:auto;max-height:40px;object-fit:contain;object-position:left center}
 @media(max-width:700px){.logo img{width:145px;max-height:36px}}
+
+/* Crop transparent canvas around the approved uploaded logo artwork */
+.logo{display:inline-flex;align-items:center;line-height:0;overflow:visible}
+.logo-crop{display:block;position:relative;overflow:hidden;width:174px;height:42px;flex:0 0 174px}
+.logo-crop img{position:absolute!important;display:block!important;width:258px!important;height:86px!important;max-width:none!important;max-height:none!important;object-fit:fill!important;left:-42px;top:-21px}
+.logo-light .logo-crop{width:174px;height:42px}
+@media(max-width:700px){
+ .logo-crop,.logo-light .logo-crop{width:148px;height:37px;flex-basis:148px}
+ .logo-crop img{width:220px!important;height:73px!important;left:-36px;top:-18px}
+}
