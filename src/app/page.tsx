@@ -178,11 +178,11 @@ export default function HomePage() {
 
       <footer className="footer">
         <div className="container footer-top">
-          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a><p>Corporate Experiences, Simplified.</p></div>
+          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a><p>Corporate Experiences, Simplified.</p><p className="brand-attribution">A Vertex Trips brand <span aria-hidden="true">·</span> Promoted by Kolina Group</p></div>
           <div className="footer-links"><a href="#experiences">Experiences</a><a href="#method">Our method</a><a href="#difference">The difference</a><a href="#enquiry">Contact</a></div>
           <div className="footer-contact"><span>MAKE SOMETHING MEANINGFUL.</span><a href="mailto:info@micego.in">info@micego.in</a><a href="https://micego.in">micego.in <ArrowUpRight size={13} /></a></div>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} MiceGo™. All rights reserved.</span><span>A Kolina Group company</span><a href="#top">BACK TO TOP ↑</a></div>
+        <div className="container footer-bottom"><span>© {new Date().getFullYear()} MiceGo™. All rights reserved.</span><span>A Vertex Trips brand · Promoted by Kolina Group</span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>
     </main>
   );
