@@ -51,8 +51,8 @@ export default function HomePage() {
         <div className="hero-shade" />
         <div className="container hero-inner">
           <div className="hero-copy">
-            <p className="eyebrow hero-eyebrow"><span /> CORPORATE EXPERIENCES, SIMPLIFIED.</p>
-            <h1>Where business<br />meets <em>experience.</em></h1>
+            <p className="eyebrow hero-eyebrow"><span /> CORPORATE EXPERIENCES &amp; INCENTIVE TRAVEL</p>
+            <h1>Bring people together.<br /><em>Move business forward.</em></h1>
             <p className="hero-lede">MICEGO turns corporate objectives into meaningful experiences, stronger connections and programmes that are thoughtfully designed and carefully delivered—from the first brief to the final detail.</p>
             <div className="hero-actions">
               <a className="btn btn-gold" href="#enquiry">Plan your corporate experience <ArrowUpRight size={17} /></a>
