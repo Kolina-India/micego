@@ -501,3 +501,8 @@ body{font-size:16px;line-height:1.7}
  .logo-crop img{width:246px!important;height:82px!important;left:-40px;top:-13.5px}
  .footer-brand .brand-attribution{font-size:9px}
 }
+
+/* Experience-category marquee: slightly larger labels for easier scanning */
+.signal-inner{font-size:11px;letter-spacing:.15em}
+@media(max-width:1050px){.signal-inner{font-size:10px}}
+@media(max-width:700px){.signal-inner{font-size:9px;letter-spacing:.1em}}
