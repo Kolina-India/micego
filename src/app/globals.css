@@ -550,3 +550,11 @@ body{font-size:16px;line-height:1.7}
  .credibility-principles h3{font-size:22px}
  .credibility-principles p{font-size:12px}
 }
+
+/* Render the dot-free wordmark directly, without transparent-canvas cropping. */
+.logo{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0;overflow:visible;transform:none}
+.logo img{display:block;width:clamp(170px,14vw,200px);height:auto;max-height:47px;object-fit:contain;object-position:left center}
+.logo-light img{filter:brightness(0) invert(1)!important}
+@media(max-width:700px){
+ .logo img{width:150px;max-height:40px}
+}
