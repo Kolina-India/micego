@@ -478,3 +478,13 @@ body{font-size:16px;line-height:1.7}
  .logo-crop,.logo-light .logo-crop{width:148px;height:37px;flex-basis:148px}
  .logo-crop img{width:220px!important;height:73px!important;left:-36px;top:-18px}
 }
+
+/* Final logo polish: larger display, clean clipping, high-contrast reverse footer mark */
+.logo-crop{width:194px;height:47px;flex-basis:194px}
+.logo-crop img{width:288px!important;height:96px!important;left:-47px;top:-23.5px}
+.logo-light .logo-crop{width:194px;height:47px;flex-basis:194px}
+.logo-light .logo-crop img{filter:brightness(0) invert(1)!important}
+@media(max-width:700px){
+ .logo-crop,.logo-light .logo-crop{width:158px;height:39px;flex-basis:158px}
+ .logo-crop img{width:235px!important;height:78px!important;left:-38px;top:-19px}
+}
