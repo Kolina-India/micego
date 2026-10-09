@@ -32,10 +32,10 @@ const steps = [
 export default function HomePage() {
   return (
     <main id="top">
-      <div className="topline"><span>KOLINA GROUP PRESENTS</span><span>DESIGNED FOR BUSINESS. BUILT AROUND PEOPLE.</span><span>MG / 001</span></div>
+      <div className="topline"><span>A VERTEX TRIPS BRAND</span><span>WHERE BUSINESS MEETS EXPERIENCE.</span><span>MG / 001</span></div>
       <header className="header">
         <div className="container nav">
-          <a className="logo" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a>
+          <a className="logo" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a>
           <nav aria-label="Main navigation">
             <a href="#experiences">Experiences</a>
             <a href="#method">Our method</a>
@@ -51,10 +51,10 @@ export default function HomePage() {
         <div className="container hero-inner">
           <div className="hero-copy">
             <p className="eyebrow hero-eyebrow"><span /> CORPORATE EXPERIENCES, SIMPLIFIED.</p>
-            <h1>Make the<br />moment <em>mean more.</em></h1>
-            <p className="hero-lede">The most memorable corporate experiences don’t happen by chance. They’re designed with intent—and delivered through a hundred details working as one.</p>
+            <h1>Where business<br />meets <em>experience.</em></h1>
+            <p className="hero-lede">MICEGO turns corporate objectives into meaningful experiences, stronger connections and programmes that are thoughtfully designed and carefully delivered—from the first brief to the final detail.</p>
             <div className="hero-actions">
-              <a className="btn btn-gold" href="#enquiry">Let’s shape your brief <ArrowUpRight size={17} /></a>
+              <a className="btn btn-gold" href="#enquiry">Plan your corporate experience <ArrowUpRight size={17} /></a>
               <a className="underlink" href="#experiences">Explore what we create <ArrowDownRight size={17} /></a>
             </div>
           </div>
@@ -73,9 +73,9 @@ export default function HomePage() {
         <div className="container manifesto-grid">
           <div className="manifesto-kicker"><span className="eyebrow"><span /> THE MICEGO POINT OF VIEW</span><span className="big-index">01<span>/</span>06</span></div>
           <div className="manifesto-content">
-            <h2>The experience is the visible part.<br /><em>The coordination is everything.</em></h2>
+            <h2>Corporate objectives.<br /><em>Meaningful experiences.</em></h2>
             <div className="manifesto-bottom">
-              <p>A venue is one decision. A programme is thousands of connected ones. MiceGo brings the brief, participants, suppliers, schedules and commercial detail into one considered way of working.</p>
+              <p>From incentives and conferences to leadership retreats and brand experiences, MICEGO brings objectives, people, suppliers, schedules and commercial details into one coordinated programme.</p>
               <a className="circle-link" href="#method" aria-label="Discover the MiceGo method"><ArrowDownRight size={23} /></a>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-heading">
             <div><p className="eyebrow"><span /> WHAT WE CREATE</p><h2>Different objectives.<br /><em>Remarkable moments.</em></h2></div>
-            <p>From recognition to reinvention, we shape corporate programmes around the people in the room—and the reason they’re there.</p>
+            <p>From rewarding high performers to aligning leadership teams, we build around the business objective, the audience and the experience you want people to remember.</p>
           </div>
           <div className="experience-grid">
             {experiences.map((experience) => (
@@ -108,8 +108,8 @@ export default function HomePage() {
         <div className="container">
           <div className="method-heading">
             <p className="eyebrow eyebrow-light"><span /> THE MICEGO METHOD</p>
-            <h2>One connected journey.<br /><em>From intent to impact.</em></h2>
-            <p>Good delivery isn’t a last-minute effort. It’s the result of connected thinking, clear ownership and visible progress at every stage.</p>
+            <h2>Our 6D method.<br /><em>From brief to impact.</em></h2>
+            <p>Discover. Design. Source. Manage. Deliver. Measure. One connected method brings decisions, suppliers and execution together, with clear ownership at every stage.</p>
           </div>
           <div className="method-track">
             {steps.map(([number, title, description], index) => (
@@ -129,13 +129,13 @@ export default function HomePage() {
           <div className="difference-photo-label"><span>DETAILS, CONNECTED.</span><span>MG / 002</span></div>
         </div>
         <div className="difference-copy">
-          <p className="eyebrow"><span /> MORE THAN ARRANGEMENTS</p>
-          <h2>Not just the event.<br /><em>Everything around it.</em></h2>
-          <p className="difference-lede">MiceGo is built around the whole programme—not a collection of disconnected bookings.</p>
+          <p className="eyebrow"><span /> MICEGO VS TRADITIONAL AGENCIES</p>
+          <h2>Beyond bookings.<br /><em>One connected programme.</em></h2>
+          <p className="difference-lede">A corporate programme is more than separate hotel, venue, transport and activity bookings. We coordinate the moving parts around one objective, one brief and a shared delivery plan.</p>
           <div className="difference-list">
-            <div><span><Check size={14} /></span><p><b>One connected view</b><small>People, suppliers, schedules and workstreams in context.</small></p></div>
-            <div><span><Check size={14} /></span><p><b>Clear ownership</b><small>Decisions, approvals and follow-through with accountability.</small></p></div>
-            <div><span><Check size={14} /></span><p><b>Commercial clarity</b><small>Costs, changes and outcomes considered end to end.</small></p></div>
+            <div><span><Check size={14} /></span><p><b>Programme-wide coordination</b><small>People, suppliers, schedules and workstreams planned as one.</small></p></div>
+            <div><span><Check size={14} /></span><p><b>Clear accountability</b><small>Decisions, owners, readiness and follow-through are visible.</small></p></div>
+            <div><span><Check size={14} /></span><p><b>Commercial discipline</b><small>Budgets, changes and outcomes considered across the programme.</small></p></div>
           </div>
           <a className="text-arrow" href="#enquiry">See what this could mean for your team <ArrowRight size={16} /></a>
         </div>
@@ -144,7 +144,7 @@ export default function HomePage() {
       <section className="principles">
         <div className="container principles-grid">
           <div><Layers3 /><b>Connected by design</b><span>Every workstream has a place in the bigger picture.</span></div>
-          <div><ShieldCheck /><b>Accountable by default</b><span>Clear ownership from brief to closure.</span></div>
+          <div><ShieldCheck /><b>Accountable by default</b><span>Clear accountability from brief to closure.</span></div>
           <div><Users /><b>People at the centre</b><span>Experiences built for the people who make business happen.</span></div>
           <div><Target /><b>Purpose over templates</b><span>Start with what needs to change, not a standard package.</span></div>
         </div>
@@ -154,8 +154,8 @@ export default function HomePage() {
         <div className="container enquiry-layout">
           <div className="enquiry-copy">
             <p className="eyebrow eyebrow-light"><span /> YOUR NEXT EXPERIENCE STARTS HERE</p>
-            <h2>Big objective.<br /><em>Right people.<br />One clear plan.</em></h2>
-            <p>Tell us what you’re looking to achieve. We’ll begin with the right questions—and build from there.</p>
+            <h2>What does success<br /><em>look like for your<br />business?</em></h2>
+            <p>Tell us the objective, audience, timing and initial scope. We’ll use your brief to start a focused corporate conversation—not send you a generic package.</p>
             <div className="enquiry-contact"><span>FOR CORPORATE PROGRAMMES & BESPOKE BRIEFS</span><a href="mailto:info@micego.in">info@micego.in <ArrowUpRight size={15} /></a></div>
           </div>
           <form className="enquiry-form" action="mailto:info@micego.in" method="post" encType="text/plain">
@@ -171,18 +171,18 @@ export default function HomePage() {
             </div>
             <label>WHAT WOULD SUCCESS LOOK LIKE?<textarea name="brief" rows={3} placeholder="A little about your objective, timing or initial thoughts…" /></label>
             <button className="btn btn-gold form-submit" type="submit">Share your brief <ArrowUpRight size={17} /></button>
-            <p className="form-preview-note">Enquiry capture is in preview mode and will be connected to the MiceGo platform before public launch.</p>
+            <p className="form-preview-note">This form is a design preview. Online submission is not active yet; please email info@micego.in until the enquiry API is configured.</p>
           </form>
         </div>
       </section>
 
       <footer className="footer">
         <div className="container footer-top">
-          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/public/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a><p>Corporate Experiences, Simplified.</p><div className="brand-attribution"><span className="brand-parent">A Vertex Trips Brand</span><span className="brand-group">Part of Kolina Group</span></div></div>
+          <div className="footer-brand"><a className="logo logo-light" href="#top" aria-label="MiceGo home"><span className="logo-crop"><img src="/micego-logo.svg" alt="MiceGo" width="258" height="86" /></span></a><p>Corporate Experiences, Simplified.</p><div className="brand-attribution"><span className="brand-parent">A Vertex Trips Brand</span><span className="brand-group">Part of Kolina Group</span></div></div>
           <div className="footer-links"><a href="#experiences">Experiences</a><a href="#method">Our method</a><a href="#difference">The difference</a><a href="#enquiry">Contact</a></div>
           <div className="footer-contact"><span>MAKE SOMETHING MEANINGFUL.</span><a href="mailto:info@micego.in">info@micego.in</a><a href="https://micego.in">micego.in <ArrowUpRight size={13} /></a></div>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} MiceGo™. All rights reserved.</span><span>Kolina India Private Limited</span><a href="#top">BACK TO TOP ↑</a></div>
+        <div className="container footer-bottom"><span>© {new Date().getFullYear()} MICEGO™. All rights reserved.</span><span>Kolina India Private Limited</span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>
     </main>
   );
