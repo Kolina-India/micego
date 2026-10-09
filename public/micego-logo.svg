@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 82" role="img" aria-labelledby="title">
-  <title id="title">MiceGo</title>
-  <text x="2" y="62" fill="#101b5a" font-family="Georgia, 'Times New Roman', serif" font-size="65" letter-spacing="-4.8">MICE</text>
-  <circle cx="178" cy="48" r="5.6" fill="#c7a15d"/>
-  <text x="189" y="61" fill="#101b5a" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="-4.4">GO</text>
-  <text x="358" y="15" fill="#101b5a" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">TM</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 82" role="img" aria-labelledby="title">
+  <title id="title">MICEGO</title>
+  <text x="2" y="61" fill="#101b5a" font-family="Georgia, 'Times New Roman', serif" font-size="65" letter-spacing="-4.8">MICE</text>
+  <text x="151" y="61" fill="#c7a15d" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="-4.4">GO</text>
+  <text x="264" y="15" fill="#101b5a" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">TM</text>
 </svg>
