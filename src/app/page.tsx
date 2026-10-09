@@ -13,11 +13,11 @@ import {
 
 const experiences = [
   { number: "01", title: "Incentive journeys", subtitle: "RECOGNISE ACHIEVEMENT", className: "experience-image--incentive", description: "Turn performance into a shared story people will remember." },
-  { number: "02", title: "Conferences & summits", subtitle: "ALIGN PEOPLE AND IDEAS", className: "experience-image--conference", description: "Bring the right people together around what comes next." },
-  { number: "03", title: "Leadership meets", subtitle: "MAKE SPACE FOR WHAT MATTERS", className: "experience-image--leadership", description: "Create the conditions for clearer thinking and better decisions." },
-  { number: "04", title: "Employee experiences", subtitle: "BUILD A SENSE OF BELONGING", className: "experience-image--employee", description: "Design meaningful moments for the people behind the business." },
-  { number: "05", title: "Brand experiences", subtitle: "BRING THE STORY TO LIFE", className: "experience-image--brand", description: "Create a setting where your message becomes an experience." },
-  { number: "06", title: "Bespoke programmes", subtitle: "START WITH THE OBJECTIVE", className: "experience-image--bespoke", description: "A considered programme shaped around your brief—not a template." },
+  { number: "02", title: "Meetings & conferences", subtitle: "ALIGN PEOPLE AND IDEAS", className: "experience-image--conference", description: "Bring teams, partners and decision-makers together with a clear purpose." },
+  { number: "03", title: "Leadership retreats & offsites", subtitle: "MAKE SPACE FOR WHAT MATTERS", className: "experience-image--leadership", description: "Give leaders the setting and structure to align, plan and make decisions." },
+  { number: "04", title: "Employee engagement", subtitle: "BUILD A SENSE OF BELONGING", className: "experience-image--employee", description: "Recognise contribution and create shared moments that bring people together." },
+  { number: "05", title: "Corporate events & launches", subtitle: "BRING THE STORY TO LIFE", className: "experience-image--brand", description: "Bring launches, dealer meets and brand moments to life with coordinated delivery." },
+  { number: "06", title: "Dealer & channel programmes", subtitle: "REWARD PARTNERSHIP", className: "experience-image--bespoke", description: "Design incentive-led programmes for dealers, distributors, channel partners and sales teams." },
 ];
 
 const steps = [
@@ -66,7 +66,7 @@ export default function HomePage() {
       </section>
 
       <div className="signal-strip">
-        <div className="container signal-inner"><span>INCENTIVES</span><i /> <span>CONFERENCES</span><i /> <span>LEADERSHIP</span><i /> <span>EMPLOYEE ENGAGEMENT</span><i /> <span>BRAND EXPERIENCES</span></div>
+        <div className="container signal-inner"><span>INCENTIVES</span><i /> <span>MEETINGS & CONFERENCES</span><i /> <span>LEADERSHIP OFFSITES</span><i /> <span>DEALER MEETS</span><i /> <span>CORPORATE EVENTS</span></div>
       </div>
 
       <section className="manifesto section" id="manifesto">
@@ -108,7 +108,7 @@ export default function HomePage() {
         <div className="container">
           <div className="method-heading">
             <p className="eyebrow eyebrow-light"><span /> THE MICEGO METHOD</p>
-            <h2>Our 6D method.<br /><em>From brief to impact.</em></h2>
+            <h2>One connected method.<br /><em>From brief to impact.</em></h2>
             <p>Discover. Design. Source. Manage. Deliver. Measure. One connected method brings decisions, suppliers and execution together, with clear ownership at every stage.</p>
           </div>
           <div className="method-track">
@@ -168,6 +168,14 @@ export default function HomePage() {
             <div className="form-pair">
               <label>EXPERIENCE TYPE<select name="experienceType" defaultValue="" required><option value="" disabled>Choose a category</option>{experiences.map((experience) => <option key={experience.number}>{experience.title}</option>)}<option>Something else</option></select></label>
               <label>GROUP SIZE<select name="participants" defaultValue=""><option value="">Choose a range</option><option>Under 50</option><option>50–150</option><option>151–500</option><option>501–1,000</option><option>1,000+</option></select></label>
+            </div>
+            <div className="form-pair">
+              <label>PREFERRED DESTINATION<input name="destination" placeholder="City, country or open to ideas" /></label>
+              <label>EXPECTED TIMING<select name="timing" defaultValue=""><option value="">Choose timing</option><option>Within 1 month</option><option>1–3 months</option><option>3–6 months</option><option>6+ months</option><option>Dates to be decided</option></select></label>
+            </div>
+            <div className="form-pair">
+              <label>INDICATIVE BUDGET<select name="budget" defaultValue=""><option value="">Choose a budget range</option><option>Under ₹5 lakh</option><option>₹5–15 lakh</option><option>₹15–30 lakh</option><option>₹30–75 lakh</option><option>₹75 lakh+</option><option>To be discussed</option></select></label>
+              <label>YOUR ROLE<select name="role" defaultValue=""><option value="">Choose if relevant</option><option>Leadership / Management</option><option>HR / People & Culture</option><option>Sales / Channel / Incentives</option><option>Marketing / Brand</option><option>Procurement / Administration</option><option>Event / Corporate Travel</option><option>Other</option></select></label>
             </div>
             <label>WHAT WOULD SUCCESS LOOK LIKE?<textarea name="brief" rows={3} placeholder="A little about your objective, timing or initial thoughts…" /></label>
             <button className="btn btn-gold form-submit" type="submit">Share your brief <ArrowUpRight size={17} /></button>
