@@ -525,14 +525,3 @@ body{font-size:16px;line-height:1.7}
  .footer-brand .logo{transform:translateY(-4px)}
  .footer-brand>p:not(.brand-attribution){font-size:13px;font-weight:600;margin-top:10px}
 }
-
-/* Trademark alignment: mask the artwork's built-in mark and place a crisp, aligned text mark */
-.logo-crop{isolation:isolate}
-.logo-crop::after{content:"";position:absolute;z-index:2;top:0;right:0;width:22px;height:17px;background:#f7f5f0}
-.logo-crop .logo-tm{position:absolute;z-index:3;top:0;right:0;color:#101b5a;font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:700;line-height:1;letter-spacing:-.03em}
-.logo-light .logo-crop::after{background:#060a24}
-.logo-light .logo-crop .logo-tm{color:#fff}
-@media(max-width:700px){
- .logo-crop::after{width:18px;height:14px}
- .logo-crop .logo-tm{font-size:8px;top:0;right:0}
-}
