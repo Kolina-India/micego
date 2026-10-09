@@ -39,7 +39,6 @@ export default function HomePage() {
           <nav aria-label="Main navigation">
             <a href="#experiences">Experiences</a>
             <a href="#method">Our method</a>
-            <a href="#leadership">Our experience</a>
             <a href="#difference">The difference</a>
           </nav>
           <a className="btn btn-nav" href="#enquiry">Start a conversation <ArrowUpRight size={16} /></a>
