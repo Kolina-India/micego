@@ -517,3 +517,11 @@ body{font-size:16px;line-height:1.7}
  .footer-brand .brand-parent{font-size:12px}
  .footer-brand .brand-group{font-size:11px}
 }
+
+/* Footer lockup micro-adjustment: raise logo and strengthen tagline */
+.footer-brand .logo{transform:translateY(-5px)}
+.footer-brand>p:not(.brand-attribution){font-size:14px;font-weight:600;line-height:1.55;margin-top:12px;color:#f2f2f7}
+@media(max-width:700px){
+ .footer-brand .logo{transform:translateY(-4px)}
+ .footer-brand>p:not(.brand-attribution){font-size:13px;font-weight:600;margin-top:10px}
+}
