@@ -39,6 +39,7 @@ export default function HomePage() {
           <nav aria-label="Main navigation">
             <a href="#experiences">Experiences</a>
             <a href="#method">Our method</a>
+            <a href="#leadership">Our experience</a>
             <a href="#difference">The difference</a>
           </nav>
           <a className="btn btn-nav" href="#enquiry">Start a conversation <ArrowUpRight size={16} /></a>
@@ -120,6 +121,23 @@ export default function HomePage() {
             ))}
           </div>
           <div className="method-footer"><span>DISCOVER → DESIGN → SOURCE → MANAGE → DELIVER → MEASURE</span><span>THE WORK BEHIND THE WOW.</span></div>
+        </div>
+      </section>
+
+      <section className="credibility-section section" id="leadership">
+        <div className="container credibility-grid">
+          <div className="credibility-intro">
+            <p className="eyebrow"><span /> EXPERIENCE BEHIND THE EXPERIENCE</p>
+            <h2>Built on real-world experience.<br /><em>Designed for corporate outcomes.</em></h2>
+            <p>MICEGO is being built on the founder’s 26 years in the travel industry, spanning sales, customer service and operations. That perspective informs how we approach supplier coordination, group movements, participant requirements and delivery accountability.</p>
+            <a className="text-arrow" href="#enquiry">Discuss your corporate programme <ArrowRight size={16} /></a>
+          </div>
+          <div className="credibility-principles">
+            <article><span>01 / OBJECTIVE</span><h3>Start with the business reason.</h3><p>Define the audience, purpose, budget and measures of success before building the programme.</p></article>
+            <article><span>02 / COORDINATION</span><h3>Connect every workstream.</h3><p>Bring venues, accommodation, transport, suppliers, schedules and participants into one plan.</p></article>
+            <article><span>03 / ACCOUNTABILITY</span><h3>Make ownership visible.</h3><p>Clarify decisions, responsibilities, dependencies and readiness from brief to delivery.</p></article>
+            <article><span>04 / MEASUREMENT</span><h3>Close the loop.</h3><p>Review feedback, commercial outcomes and learning after the programme—not only on event day.</p></article>
+          </div>
         </div>
       </section>
 
