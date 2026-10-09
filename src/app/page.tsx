@@ -4,7 +4,6 @@ import {
   ArrowRight,
   ArrowUpRight,
   Check,
-  CircleArrowUpRight,
   Layers3,
   ShieldCheck,
   Sparkles,
@@ -181,7 +180,7 @@ export default function HomePage() {
         <div className="container footer-top">
           <div className="footer-brand"><a className="logo logo-light" href="#top">MICE<span>·</span>GO<sup>™</sup></a><p>Corporate Experiences, Simplified.</p></div>
           <div className="footer-links"><a href="#experiences">Experiences</a><a href="#method">Our method</a><a href="#difference">The difference</a><a href="#enquiry">Contact</a></div>
-          <div className="footer-contact"><span>MAKE SOMETHING MEANINGFUL.</span><a href="mailto:info@micego.in">info@micego.in</a><a href="https://micego.in">micego.in <CircleArrowUpRight size={13} /></a></div>
+          <div className="footer-contact"><span>MAKE SOMETHING MEANINGFUL.</span><a href="mailto:info@micego.in">info@micego.in</a><a href="https://micego.in">micego.in <ArrowUpRight size={13} /></a></div>
         </div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} MiceGo™. All rights reserved.</span><span>A Kolina Group company</span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>
