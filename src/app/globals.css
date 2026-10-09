@@ -558,3 +558,7 @@ body{font-size:16px;line-height:1.7}
 @media(max-width:700px){
  .logo img{width:150px;max-height:40px}
 }
+
+/* MICEGO method heading: add clear breathing room between the two headline lines */
+.method-heading h2{line-height:1.16}
+@media(max-width:700px){.method-heading h2{line-height:1.13}}
