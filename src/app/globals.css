@@ -388,3 +388,68 @@ body{font-size:15px}
  .experience-copy h3{font-size:23px}
  .experience-copy p{font-size:12px}
 }
+
+/* Site-wide supporting typography pass: raise small copy and metadata consistently */
+body{font-size:16px;line-height:1.7}
+.topline{font-size:9px;letter-spacing:.17em}
+.nav nav{font-size:14px}
+.btn,.underlink,.text-arrow,.experience-bottom a{font-size:13px}
+.eyebrow{font-size:10px;letter-spacing:.17em}
+.hero-lede{font-size:16px;line-height:1.9}
+.hero-side-note,.hero-index,.scroll-cue{font-size:9px}
+.hero-stamp{font-size:9px}
+.signal-inner{font-size:9px}
+.manifesto-bottom p,.section-heading>p,.method-heading>p:last-child,.difference-lede,.enquiry-copy>p:not(.eyebrow){font-size:15px;line-height:1.9}
+.experience-copy p{font-size:14px;line-height:1.8}
+.image-caption{font-size:9px;letter-spacing:.15em}
+.image-number{font-size:11px}
+.experience-bottom{font-size:10px}
+.method-step p{font-size:13px;line-height:1.85}
+.method-footer{font-size:9px;line-height:1.8}
+.difference-list b{font-size:14px}
+.difference-list small{font-size:12px;line-height:1.8}
+.principles-grid b{font-size:13px}
+.principles-grid span{font-size:12px;line-height:1.8}
+.enquiry-contact>span{font-size:9px}
+.enquiry-contact>a{font-size:15px}
+.form-heading{font-size:9px}
+.enquiry-form label{font-size:10px;line-height:1.5}
+.enquiry-form input,.enquiry-form select,.enquiry-form textarea{font-size:13px;line-height:1.6}
+.form-preview-note{font-size:11px;line-height:1.75}
+.footer-brand p,.footer-links,.footer-contact{font-size:13px;line-height:1.7}
+.footer-contact>span{font-size:9px}
+.footer-bottom{font-size:9px}
+@media(max-width:1050px){
+ .hero-lede{font-size:15px}
+ .experience-copy p{font-size:13px}
+ .method-step p{font-size:12px}
+ .principles-grid b{font-size:12px}
+ .principles-grid span{font-size:11px}
+}
+@media(max-width:700px){
+ .topline{font-size:8px}
+ .nav .btn{font-size:10px}
+ .hero-lede{font-size:14px;line-height:1.85}
+ .hero-side-note,.hero-index,.scroll-cue{font-size:8px}
+ .hero-stamp{font-size:8px}
+ .signal-inner{font-size:8px}
+ .manifesto-bottom p,.section-heading>p,.method-heading>p:last-child,.difference-lede,.enquiry-copy>p:not(.eyebrow){font-size:13px;line-height:1.85}
+ .image-caption{font-size:8px}
+ .experience-copy p{font-size:12px;line-height:1.8}
+ .experience-bottom{font-size:9px}
+ .experience-bottom a,.text-arrow{font-size:12px}
+ .method-step p{font-size:12px;line-height:1.8}
+ .method-footer{font-size:8px}
+ .difference-list b{font-size:13px}
+ .difference-list small{font-size:11px}
+ .principles-grid b{font-size:11px}
+ .principles-grid span{font-size:10px}
+ .enquiry-contact>span{font-size:8px}
+ .enquiry-contact>a{font-size:14px}
+ .form-heading{font-size:8px}
+ .enquiry-form label{font-size:9px}
+ .enquiry-form input,.enquiry-form select,.enquiry-form textarea{font-size:12px}
+ .form-preview-note{font-size:10px}
+ .footer-brand p,.footer-links,.footer-contact{font-size:11px}
+ .footer-contact>span,.footer-bottom{font-size:8px}
+}
