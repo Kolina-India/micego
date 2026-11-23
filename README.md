@@ -15,6 +15,12 @@ npm run dev
 
 Open http://localhost:3000.
 
+## Business division and architecture boundaries
+
+MiceGo operates two distinct business divisions: **MiceGo Incentives** and **MiceGo PCO (Professional Conference Organising)**. They share the MiceGo parent brand and approved common platform foundations, but retain distinct business ownership, workflows, commercial data, access grants, reporting and release requirements where applicable. A user granted access to one division does not automatically receive access to the other.
+
+Kolina Core owns group-wide architecture and shared platform governance. MiceGo owns its division-specific product and operational implementation. Vertex Trips is a separate outbound travel brand and does not own MICE business capabilities. QIJ may provide contracted inbound destination/ground services to a MiceGo programme or conference without becoming the programme/PCO owner.
+
 ## Frozen brand rules
 - Premium corporate/editorial design using MiceGo navy, champagne and ivory.
 - No airplane, globe, map, pin, mountain, suitcase, route or generic travel-agency imagery.
